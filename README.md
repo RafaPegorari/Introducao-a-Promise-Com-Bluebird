@@ -241,7 +241,7 @@ file-4.txt -> 40
 40
 [ '20', '30', '40' ]
 
-## Documentation
+## Referência 
 * [ECMAScript 2015 6.0 - Promise](http://www.ecma-international.org/ecma-262/6.0/#sec-promise-constructor)
 * [MDN - Promise](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 * [Bluebird](http://bluebirdjs.com/docs/getting-started.html)
