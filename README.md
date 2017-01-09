@@ -241,6 +241,31 @@ file-4.txt -> 40
 40
 [ '20', '30', '40' ]
 
+## Instalação do navegador
+Incluir o arquivo *bluebird.js* no html.
+
+<script src="//cdn.jsdelivr.net/bluebird/3.4.7/bluebird.js"></script>
+ou
+<script src="//cdn.jsdelivr.net/bluebird/3.4.7/bluebird.min.js"></script>
+
+```html
+<script>
+  var Bluebird = Promise.noConflict();
+  
+  function aux() {
+    throw new Error('Message error');
+  }
+
+  new Bluebird(function (resolve, reject) {
+    aux();
+
+    reject("Ignored");
+  }).catch(function(err) {
+    console.log(err);
+  });
+</script>
+```
+
 ## Referência 
 * [ECMAScript 2015 6.0 - Promise](http://www.ecma-international.org/ecma-262/6.0/#sec-promise-constructor)
 * [MDN - Promise](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise)
