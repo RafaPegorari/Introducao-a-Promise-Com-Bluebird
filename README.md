@@ -244,9 +244,13 @@ file-4.txt -> 40
 ## Instalação do navegador
 Incluir o arquivo *bluebird.js* no html.
 
+```html
 <script src="//cdn.jsdelivr.net/bluebird/3.4.7/bluebird.js"></script>
+```
 ou
+```html
 <script src="//cdn.jsdelivr.net/bluebird/3.4.7/bluebird.min.js"></script>
+```
 
 ```html
 <script>
