@@ -241,7 +241,7 @@ file-4.txt -> 40
 40
 [ '20', '30', '40' ]
 
-## Instalação do navegador
+## Incluir Bluebird no browser.
 Incluir o arquivo *bluebird.js* no html.
 
 ```html
